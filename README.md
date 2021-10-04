@@ -1,4 +1,7 @@
 # LaTeX Vorlage Studium
+
+Note: in progeess
+
 LaTeX-Vorlage für Exposé, Studienarbeit, Thesis, ...
 
 Entspricht (unter Vorbehalt) dem "Leitfaden Zitieren" der Fachhochschule Graubünden und den Richtlinien der DGP 4. Aufl. 2016
