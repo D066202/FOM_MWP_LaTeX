@@ -1,0 +1,105 @@
+% ============================================================================ %
+%
+% LaTeX Template
+% 
+% Autor: Simon Mettler - simonmettler.com
+% GitHub Repository: https://github.com/simon-mettler/latex-thesis
+% 
+% This is free and unencumbered software released into the public domain.
+% See https://unlicense.org/
+%
+% ============================================================================ %
+
+
+% ---------------------------------------------------------------------------- %
+% Dokumenteinstellungen
+% ---------------------------------------------------------------------------- %
+
+% Dokumentklasse
+\documentclass[a4paper, 12pt, ngerman]{scrartcl}
+
+% Load settings
+\input{settings/macros}
+\input{settings/packages} 
+
+% Bibliografie laden
+\addbibresource{bibliography.bib}
+
+
+% ---------------------------------------------------------------------------- %
+% Beginn Dokument
+% ---------------------------------------------------------------------------- %
+
+\begin{document}
+
+% Setup laden
+\include{settings/setup}
+
+
+% ---------------------------------------------------------------------------- %
+% Inhalt
+% ---------------------------------------------------------------------------- %
+
+\pagenumbering{roman}
+
+% Neue .tex Dateien können mit \include{} eingebunden werden.
+% Nicht verwendete können auskommentiert werden.
+
+% Abstract
+\include{content/abstract}
+
+% Vorwort
+\include{content/vorwort}
+
+% Inhaltsverzeichnis
+\tableofcontents
+\newpage
+
+% Abbildungsverzeichnis
+\phantomsection
+\addcontentsline{toc}{section}{Abbildungsverzeichnis} 
+\listoffigures
+\newpage
+
+% Abkürzungsverzeichnis
+\include{content/abkverzeichnis}
+
+
+% ---------------------------------------------------------------------------- %
+% Einleitung und Hauptteil
+% ---------------------------------------------------------------------------- %
+
+\pagenumbering{arabic}
+
+% Einleitung
+\include{content/einleitung}
+
+% Hauptteil
+\include{content/hauptteil}
+
+
+% ---------------------------------------------------------------------------- %
+% Bibliografie
+% ---------------------------------------------------------------------------- %
+
+\pagenumbering{roman}
+
+% Standardschrift für URL im Literaturverzeichnis
+\urlstyle{same}
+
+% Bibliografie
+\phantomsection
+\addcontentsline{toc}{section}{Literaturverzeichnis} 
+\printbibliography[title=Literaturverzeichnis]
+\newpage
+
+
+% ---------------------------------------------------------------------------- %
+% Anhang
+% ---------------------------------------------------------------------------- %
+
+% Eidesstattliche Erklärung
+\include{content/eidesstattlich}
+
+
+\end{document}

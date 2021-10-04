@@ -1,0 +1,67 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.5 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist{apa}{apa}
+    \entry{brooksbankCognitiveDissonanceRevisited2020}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=65e553e21622ddd32202aa273e916d2f}{Brooksbank}{B\bibinitperiod}{Roger}{R\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=023e34bf364a79d4946494625e8d1e9a}{Fullerton}{F\bibinitperiod}{Sam}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{94ef07f066978c21226eeacd24489d72}
+      \strng{fullhash}{94ef07f066978c21226eeacd24489d72}
+      \field{sortinit}{B}
+      \field{sortinithash}{4ecbea03efd0532989d3836d1a048c32}
+      \field{labelyear}{2020}
+      \field{labelmonth}{01}
+      \field{labelday}{17}
+      \field{datelabelsource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Purpose – In revisiting Festinger’s theory of cognitive dissonance, this paper seeks to go beyond traditional business-to-consumer (B2C) research parameters and explore the full extent of its potential application within a New Zealand business-to-business (B2B) purchasing context.}
+      \field{day}{17}
+      \field{issn}{1355-5855}
+      \field{journaltitle}{Asia Pacific Journal of Marketing and Logistics}
+      \field{langid}{english}
+      \field{month}{01}
+      \field{number}{8}
+      \field{shortjournal}{APJML}
+      \field{shorttitle}{Cognitive Dissonance Revisited}
+      \field{title}{Cognitive Dissonance Revisited: A Typology of {{B2B}} Buyers' Post-Decision ‘Cognitive States’ and Its Implications for Sales Professionals}
+      \field{urlday}{30}
+      \field{urlmonth}{09}
+      \field{urlyear}{2021}
+      \field{volume}{32}
+      \field{year}{2020}
+      \field{pages}{1759\bibrangedash 1782}
+      \range{pages}{24}
+      \verb{doi}
+      \verb 10.1108/APJML-01-2019-0068
+      \endverb
+      \verb{file}
+      \verb /Users/melinaalt/Zotero/storage/TPEMJEV7/Brooksbank und Fullerton - 2020 - Cognitive dissonance revisited A typology of B2B .pdf
+      \endverb
+      \verb{url}
+      \verb https://www.emerald.com/insight/content/doi/10.1108/APJML-01-2019-0068/full/html
+      \endverb
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+
