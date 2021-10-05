@@ -1,5 +1,5 @@
-# LaTeX Vorlage Studium
+# LaTeX Vorlage MWP
 
-In progeess
+Coming soon!
 
 LaTeX-Vorlage für Exposé, Studienarbeit, Thesis, ...‚
