@@ -3,12 +3,26 @@
 % ---------------------------------------------------------------------------- %
 
 % Eingabekodierung
-\usepackage[utf8]{inputenc} 
+\usepackage[utf8]{inputenc}
 
 % Sprache (Deutsch, Neue Rechtschreibung)
 \usepackage[ngerman]{babel}
 
-% \usepackage{titlesec}
+% Arial 11 pt (vgl Schiefer Leitfaden S. 23)
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage[scaled]{helvet}
+\renewcommand\familydefault{\sfdefault} 
+\usepackage[T1]{fontenc}
+\fontsize{11pt}{2cm}\selectfont
+
+% Ueberschriften (vgl Schiefer Leitfaden S. 23f)
+\usepackage{titlesec}
+\titleformat{\section}
+  {\normalfont\bfseries\filcenter}{\thesection}{1em}{}
+\titleformat{\subsection}
+  {\normalfont\bfseries}{\thesubsection}{1em}{}
+\titleformat{\subsubsection}
+  {\normalfont\itshape}{\thesubsubsection}{1em}{}
 
 % Biblatex Settings (APA-Deutsch)
 \usepackage[style=apa, autolang=other]{biblatex}
@@ -19,32 +33,31 @@
 
 \usepackage{ 
 	graphicx, 	% Ermöglicht das Einbinden von Bildern
-	amsmath,		% Standard Mathe-Paket
+	amsmath,	% Standard Mathe-Paket
 	amsfonts,	% Ergänzt mathematische Symbole
 	paralist,	% Erweiterung der bereits bestehenden Listenumgebungen
 	listings,	% Code-Formatierung 
 	setspace,	% Zeilenabstand
 	geometry,	% Seitenformatierung
 	fancyhdr,	% Manipulation von Fuss- und Kopfzeilen
-	courier,		% Monospace Schrift
+	courier,	% Monospace Schrift
 	mathptmx,	% Times New Roman für Lauftext und Überschriften
 	xcolor		% Erlaubt das Definieren neuer Farben
 }
 
-% Bildunterschriften fromatieren
+% Bildunterschriften formatieren
 \usepackage[bf]{caption}
 \captionsetup{format=plain}
 
 % Layoutanpassungen 
 \geometry{
 	a4paper,			% Format (überschreibt documentclass)
-%	twoside,			% für doppelseitigen Druck verwenden
-	footskip=10mm,	% Position Fusszeile (Abstand zum Text)
-	headsep=10mm,	% Position Kopfzeile (Abstand zum Text)
-	top=25mm,
-	right=25mm,
-	bottom=20mm,
-	left=30mm
+	footskip=10mm,		% Position Fusszeile (Abstand zum Text)
+	headsep=10mm,		% Position Kopfzeile (Abstand zum Text)
+	top=30mm,			% vgl Schiefer Leitfaden S. 23
+	right=20mm,			% vgl Schiefer Leitfaden S. 23
+	bottom=20mm,		% vgl Schiefer Leitfaden S. 23
+	left=40mm			% vgl Schiefer Leitfaden S. 23
 }
 
 % Mikrotypografie
@@ -90,14 +103,14 @@
 \DeclareFieldFormat{formaturl}{Verfügbar unter #1}
 \DeclareFieldFormat{formatdate}{Letzter Zugriff: #1}
 
-\newbibmacro*{url+urldate}{%
-	\iffieldundef{urlyear}{%
-		\printtext[formaturl]{\printfield{url}}\nopunct%
-	}{%
-		\printtext[formaturl]{\printfield{url}}\adddot\space%
-		\printtext[formatdate]{\printurldate}%
-	}%
-}
+%\newbibmacro*{url+urldate}{%
+%	\iffieldundef{urlyear}{%
+%		\printtext[formaturl]{\printfield{url}}\nopunct%
+%	}{%
+%		\printtext[formaturl]{\printfield{url}}\adddot\space%
+%		\printtext[formatdate]{\printurldate}%
+%	}%
+%}
 
 % Ergänzt im Literaturverzeichnis den Publisher mit Ort (Ort, Herausgeber)
 \DeclareListFormat{publisher}{\printlist{location}\addcomma\space #1}
