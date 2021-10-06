@@ -58,4 +58,10 @@
 % ---------------------------------------------------------------------------- %
 
 % Eigene Makros können nach folgendem Schema erstellt werden:
-\newcommand{\yourmacro}{Dein Text}
+% \newcommand{\yourmacro}{Dein Text} 
+
+% Wörter zählen
+\newcommand{\quickwordcount}[1]{
+  \immediate\write18{texcount #1.tex > #1-words.tex -sum -1}%
+  \input{#1-words} W\"ortern.%
+}

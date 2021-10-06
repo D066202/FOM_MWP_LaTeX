@@ -133,6 +133,10 @@ INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/xcolor/xcolor.sty
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/xcolor/xcolor.sty
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/color.cfg
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/color.cfg
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/moreverb/moreverb.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/moreverb/moreverb.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/tools/verbatim.sty
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/tools/verbatim.sty
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/caption/caption.sty
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/caption/caption.sty
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/caption/caption3.sty
@@ -372,6 +376,8 @@ INPUT /Users/melinaalt/Documents/Master/WS2122/Vorlagen/FOM_MWP_LaTeX/content/ab
 INPUT /Users/melinaalt/Documents/Master/WS2122/Vorlagen/FOM_MWP_LaTeX/thesis.toc
 INPUT /Users/melinaalt/Documents/Master/WS2122/Vorlagen/FOM_MWP_LaTeX/thesis.toc
 OUTPUT /Users/melinaalt/Documents/Master/WS2122/Vorlagen/FOM_MWP_LaTeX/thesis.toc
+INPUT /Users/melinaalt/Documents/Master/WS2122/Vorlagen/FOM_MWP_LaTeX/content/hauptteil-words.tex
+INPUT /Users/melinaalt/Documents/Master/WS2122/Vorlagen/FOM_MWP_LaTeX/content/hauptteil-words.tex
 OUTPUT /Users/melinaalt/Documents/Master/WS2122/Vorlagen/FOM_MWP_LaTeX/content/einleitung.aux
 INPUT /Users/melinaalt/Documents/Master/WS2122/Vorlagen/FOM_MWP_LaTeX/content/einleitung.tex
 INPUT /Users/melinaalt/Documents/Master/WS2122/Vorlagen/FOM_MWP_LaTeX/content/einleitung.tex
