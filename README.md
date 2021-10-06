@@ -3,3 +3,5 @@
 Coming soon!
 
 LaTeX-Vorlage für Exposé, Studienarbeit, Thesis, ...‚
+
+rm -rf $(biber --cache)

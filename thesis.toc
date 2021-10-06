@@ -2,9 +2,15 @@
 \defcounter {refsection}{0}\relax 
 \select@language {ngerman}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Abbildungsverzeichnis}{iv}{section*.1}
+\setcounter {tocdepth}{0}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Abk\IeC {\"u}rzungsverzeichnis}{v}{section*.2}
+\contentsline {section}{Abbildungsverzeichnis}{III}{section*.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Tabellenverzeichnis}{IV}{section*.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Abk\IeC {\"u}rzungsverzeichnis}{V}{section*.3}
+\defcounter {refsection}{0}\relax 
+\setcounter {tocdepth}{3}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1}Einleitung}{1}{section.1}
 \defcounter {refsection}{0}\relax 
@@ -20,4 +26,4 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3}Schluss}{3}{section.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Literaturverzeichnis}{i}{section*.4}
+\contentsline {section}{Literaturverzeichnis}{4}{section*.5}

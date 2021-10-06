@@ -2,8 +2,8 @@
 %
 % LaTeX Template
 % 
-% Autor: Simon Mettler - simonmettler.com
-% GitHub Repository: https://github.com/simon-mettler/latex-thesis
+% Autor: Melina Alt
+% GitHub Repository: tbd
 % 
 % This is free and unencumbered software released into the public domain.
 % See https://unlicense.org/
@@ -40,20 +40,19 @@
 % Inhalt
 % ---------------------------------------------------------------------------- %
 
-\pagenumbering{roman}
+\pagenumbering{Roman}
+
+% Exludiert in TOC (vgl Schiefer Leitfaden S. 13)
+\addtocontents{toc}{\protect\setcounter{tocdepth}{0}}
 
 % Neue .tex Dateien können mit \include{} eingebunden werden.
 % Nicht verwendete können auskommentiert werden.
+% Reihenfolge vgl Schiefer Leitfaden S. 27
 
 % Abstract
+\setcounter{page}{2}
 \include{content/abstract}
 
-% Vorwort
-\include{content/vorwort}
-
-% Inhaltsverzeichnis
-\tableofcontents
-\newpage
 
 % Abbildungsverzeichnis
 \phantomsection
@@ -61,8 +60,20 @@
 \listoffigures
 \newpage
 
+% Tabellenverzeichnis
+\phantomsection
+\addcontentsline{toc}{section}{Tabellenverzeichnis} 
+\listoftables
+\newpage
+
 % Abkürzungsverzeichnis
 \include{content/abkverzeichnis}
+
+\addtocontents{toc}{\protect\setcounter{tocdepth}{3}}
+
+% Inhaltsverzeichnis
+\tableofcontents
+\newpage
 
 
 % ---------------------------------------------------------------------------- %
@@ -81,8 +92,6 @@
 % ---------------------------------------------------------------------------- %
 % Bibliografie
 % ---------------------------------------------------------------------------- %
-
-\pagenumbering{roman}
 
 % Standardschrift für URL im Literaturverzeichnis
 \urlstyle{same}
