@@ -1,6 +1,7 @@
 % ---------------------------------------------------------------------------- %
 % Setup
 % ---------------------------------------------------------------------------- %
+%TC:ignore
 
 % Dokumentmetadaten
 \title{\haupttitel}
@@ -35,45 +36,47 @@
 % Formatierung Titelseite
 % ---------------------------------------------------------------------------- %
 
-% Nicht verwendete Angaben können hier auskommentiert werden.
-
 \pagestyle{empty}
 
-% Titel und Untertitel
+% Zentrale Angaben
 \begin{center}
 
+	\includegraphics[width=4cm]{img/fom_logo.png}
+
+	\vspace{0.5cm}
+	{\bfseries \HS \par}
+	{\HSZentrum \par}
+
+	\vspace{2cm}
+	{\bfseries \art \par}
+	{\Studiengang \par}
+
 	\vspace{4cm}
-	{\bfseries \haupttitel \par}
-	
-	\vspace{1cm}
-	{\bfseries \untertitel \par}
+	{\bfseries \titel \par}
 
 \end{center}
 
 \vspace*{\fill}
 
-% Angaben zu Verfasser, Referent, ...
+% Weitere Angaben
 \begin{tabbing}
 
 	\verfassergen \hspace{2.5cm} \= \verfasser \\
-	\> \strasse \\
-	\> \ort \\
-	% \> \telgen \tel \\
-	\> \mailgen \mail \\
-	\\
+	
+	\matrgen 
+	\> \matr \\
 
-	\referentgen 
-	\> \referent \\
-	
-%	\korreferentgen
-%	\> \korreferent \\
-	
+	\semestergen 
+	\> \semester \\
+
+	\dozentgen 
+	\> \dozent \\
+		
 	\modulgen
 	\> \modul \\
-	\\
-	
-%	\bearbzeitgen
-%	\> \bearbzeit
+		
+	\datumgen
+	\> \datum \\
 	
 	
 \end{tabbing}
@@ -87,3 +90,5 @@
 \pagestyle{fancy}
 
 \pagenumbering{Roman}
+
+%TC:endignore

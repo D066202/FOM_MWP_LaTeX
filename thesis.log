@@ -1,6 +1,6 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.10)  6 OCT 2021 23:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.10)  7 OCT 2021 23:19
 entering extended mode
- restricted \write18 enabled.
+ \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
 **/Users/melinaalt/Documents/Master/WS2122/Vorlagen/FOM_MWP_LaTeX/thesis.tex
@@ -336,7 +336,7 @@ Class scrartcl Warning: Usage of package `titlesec' together
 (scrartcl)              the extended optional argument of the section
 (scrartcl)              commands.
 (scrartcl)              Nevertheless, using requested
-(scrartcl)              package `titlesec' on input line 20.
+(scrartcl)              package `titlesec' on input line 21.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
@@ -373,7 +373,7 @@ Package titlesec Warning: Non standard sectioning command detected
 )
 
 Package scrartcl Warning: Activating an ugly workaround for a missing
-(scrartcl)                feature of package `titlesec` on input line 20.
+(scrartcl)                feature of package `titlesec` on input line 21.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2015/04/19 v3.0 programmable bibliographies (PK/JW/AB)
@@ -720,7 +720,7 @@ Class scrartcl Warning: Usage of package `fancyhdr' together
 (scrartcl)              I'd suggest to use 
 (scrartcl)              package `scrlayer-scrpage'.
 (scrartcl)              Nevertheless, using requested
-(scrartcl)              package `fancyhdr' on input line 45.
+(scrartcl)              package `fancyhdr' on input line 46.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 \fancy@headwidth=\skip71
@@ -1116,7 +1116,7 @@ File: german.lbx 2015/04/19 v3.0 biblatex localization (PK/JW/AB)
 )))
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
- (/Users/melinaalt/Documents/Master/WS2122/Vorlagen/FOM_MWP_LaTeX/thesis.aux (/Users/melinaalt/Documents/Master/WS2122/Vorlagen/FOM_MWP_LaTeX/settings/setup.aux) (/Users/melinaalt/Documents/Master/WS2122/Vorlagen/FOM_MWP_LaTeX/content/abstract.aux) (/Users/melinaalt/Documents/Master/WS2122/Vorlagen/FOM_MWP_LaTeX/content/abkverzeichnis.aux) (/Users/melinaalt/Documents/Master/WS2122/Vorlagen/FOM_MWP_LaTeX/content/einleitung.aux) (/Users/melinaalt/Documents/Master/WS2122/Vorlagen/FOM_MWP_LaTeX/content/hauptteil.aux) (/Users/melinaalt/Documents/Master/WS2122/Vorlagen/FOM_MWP_LaTeX/content/eidesstattlich.aux))
+ (/Users/melinaalt/Documents/Master/WS2122/Vorlagen/FOM_MWP_LaTeX/thesis.aux (/Users/melinaalt/Documents/Master/WS2122/Vorlagen/FOM_MWP_LaTeX/settings/setup.aux) (/Users/melinaalt/Documents/Master/WS2122/Vorlagen/FOM_MWP_LaTeX/content/abstract.aux) (/Users/melinaalt/Documents/Master/WS2122/Vorlagen/FOM_MWP_LaTeX/content/abkverzeichnis.aux) (/Users/melinaalt/Documents/Master/WS2122/Vorlagen/FOM_MWP_LaTeX/content/einleitung.aux) (/Users/melinaalt/Documents/Master/WS2122/Vorlagen/FOM_MWP_LaTeX/content/theorie.aux) (/Users/melinaalt/Documents/Master/WS2122/Vorlagen/FOM_MWP_LaTeX/content/methoden.aux) (/Users/melinaalt/Documents/Master/WS2122/Vorlagen/FOM_MWP_LaTeX/content/ergebnis.aux) (/Users/melinaalt/Documents/Master/WS2122/Vorlagen/FOM_MWP_LaTeX/content/diskussion.aux) (/Users/melinaalt/Documents/Master/WS2122/Vorlagen/FOM_MWP_LaTeX/content/eidesstattlich.aux))
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
@@ -1247,28 +1247,32 @@ LaTeX Info: Redefining \nameref on input line 33.
  ABD: EveryShipout initializing macros
 \openout2 = `settings/setup.aux'.
 
- (/Users/melinaalt/Documents/Master/WS2122/Vorlagen/FOM_MWP_LaTeX/settings/setup.tex
+ (/Users/melinaalt/Documents/Master/WS2122/Vorlagen/FOM_MWP_LaTeX/settings/setup.tex <img/fom_logo.png, id=107, 1204.5pt x 1204.5pt>
+File: img/fom_logo.png Graphic file (type png)
+ <use img/fom_logo.png>
+Package pdftex.def Info: img/fom_logo.png used on input line 44.
+(pdftex.def)             Requested size: 113.81102pt x 113.80379pt.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 46.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 47.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 10.40245pt on input line 46.
+(Font)              scaled to size 10.40245pt on input line 47.
 
-Underfull \hbox (badness 10000) in paragraph at lines 81--83
+Underfull \hbox (badness 10000) in paragraph at lines 84--86
 
  []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 85.
+(babel)             in language  on input line 88.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 85.
+(babel)             in language  on input line 88.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 85.
+(babel)             in language  on input line 88.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 85.
+(babel)             in language  on input line 88.
 [1
 
 
-{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}])
+{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map} </Users/melinaalt/Documents/Master/WS2122/Vorlagen/FOM_MWP_LaTeX/img/fom_logo.png>])
 \openout2 = `content/abstract.aux'.
 
  (/Users/melinaalt/Documents/Master/WS2122/Vorlagen/FOM_MWP_LaTeX/content/abstract.tex
@@ -1288,10 +1292,10 @@ Package babel Info: Redefining ngerman shorthand "~
 
 ])
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 59.
+(babel)             in language  on input line 60.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 59.
-Package tocbasic Info: character protrusion at lof deactivated on input line 60.
+(babel)             in language  on input line 60.
+Package tocbasic Info: character protrusion at lof deactivated on input line 61.
  (/Users/melinaalt/Documents/Master/WS2122/Vorlagen/FOM_MWP_LaTeX/thesis.lof (/usr/local/texlive/2015/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
 )
@@ -1311,34 +1315,34 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 \openout6 = `thesis.lof'.
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 61.
+(babel)             in language  on input line 62.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 61.
+(babel)             in language  on input line 62.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 61.
+(babel)             in language  on input line 62.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 61.
+(babel)             in language  on input line 62.
  [3
 
 
 ]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 65.
+(babel)             in language  on input line 66.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 65.
-Package tocbasic Info: character protrusion at lot deactivated on input line 66.
+(babel)             in language  on input line 66.
+Package tocbasic Info: character protrusion at lot deactivated on input line 67.
  (/Users/melinaalt/Documents/Master/WS2122/Vorlagen/FOM_MWP_LaTeX/thesis.lot)
 \tf@lot=\write7
 \openout7 = `thesis.lot'.
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 67.
+(babel)             in language  on input line 68.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 67.
+(babel)             in language  on input line 68.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 67.
+(babel)             in language  on input line 68.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 67.
+(babel)             in language  on input line 68.
  [4
 
 ]
@@ -1346,38 +1350,38 @@ Package babel Info: Redefining ngerman shorthand "~
 
  (/Users/melinaalt/Documents/Master/WS2122/Vorlagen/FOM_MWP_LaTeX/content/abkverzeichnis.tex
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 10.
+(babel)             in language  on input line 11.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 10.
+(babel)             in language  on input line 11.
 )
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 70.
+(babel)             in language  on input line 71.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 70.
+(babel)             in language  on input line 71.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 70.
+(babel)             in language  on input line 71.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 70.
+(babel)             in language  on input line 71.
  [5
 
 
 ]
-Package tocbasic Info: character protrusion at toc deactivated on input line 75.
+Package tocbasic Info: character protrusion at toc deactivated on input line 76.
  (/Users/melinaalt/Documents/Master/WS2122/Vorlagen/FOM_MWP_LaTeX/thesis.toc)
 \tf@toc=\write8
 \openout8 = `thesis.toc'.
 
-runsystem(texcount content/hauptteil.tex > content/hauptteil-words.tex -sum -1)...disabled (restricted).
+runsystem(texcount thesis.tex > thesis-words.tex -inc -sum -0)...executed.
 
- (/Users/melinaalt/Documents/Master/WS2122/Vorlagen/FOM_MWP_LaTeX/content/hauptteil-words.tex)
+ (/Users/melinaalt/Documents/Master/WS2122/Vorlagen/FOM_MWP_LaTeX/thesis-words.tex)
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 82.
+(babel)             in language  on input line 83.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 82.
+(babel)             in language  on input line 83.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 82.
+(babel)             in language  on input line 83.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 82.
+(babel)             in language  on input line 83.
  [6
 
 
@@ -1405,9 +1409,9 @@ l.9 \newpage
 
 
 ])
-\openout2 = `content/hauptteil.aux'.
+\openout2 = `content/theorie.aux'.
 
- (/Users/melinaalt/Documents/Master/WS2122/Vorlagen/FOM_MWP_LaTeX/content/hauptteil.tex
+ (/Users/melinaalt/Documents/Master/WS2122/Vorlagen/FOM_MWP_LaTeX/content/theorie.tex
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 5.
 Package babel Info: Redefining ngerman shorthand "~
@@ -1438,33 +1442,53 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 24.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 24.
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
+
+ []
+
+<img/image.jpg, id=169, 1371.1225pt x 770.88pt>
+File: img/image.jpg Graphic file (type jpg)
+ <use img/image.jpg>
+Package pdftex.def Info: img/image.jpg used on input line 30.
+(pdftex.def)             Requested size: 426.79135pt x 239.94662pt.
+)
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 27.
+(babel)             in language  on input line 94.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 27.
+(babel)             in language  on input line 94.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 27.
+(babel)             in language  on input line 94.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 27.
+(babel)             in language  on input line 94.
  [2
 
 
 
-]
+ </Users/melinaalt/Documents/Master/WS2122/Vorlagen/FOM_MWP_LaTeX/img/image.jpg>]
+\openout2 = `content/methoden.aux'.
+
+ (/Users/melinaalt/Documents/Master/WS2122/Vorlagen/FOM_MWP_LaTeX/content/methoden.tex
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 27.
+(babel)             in language  on input line 5.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 27.
-
-Underfull \hbox (badness 10000) in paragraph at lines 27--30
-
- []
-
-<img/image.jpg, id=101, 1371.1225pt x 770.88pt>
-File: img/image.jpg Graphic file (type jpg)
- <use img/image.jpg>
-Package pdftex.def Info: img/image.jpg used on input line 34.
-(pdftex.def)             Requested size: 426.79135pt x 239.94662pt.
+(babel)             in language  on input line 5.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 15.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 15.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 18.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 18.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 21.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 21.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 24.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 24.
 )
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 95.
@@ -1476,20 +1500,96 @@ Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 95.
  [3
 
- </Users/melinaalt/Documents/Master/WS2122/Vorlagen/FOM_MWP_LaTeX/img/image.jpg>]
+
+
+]
+\openout2 = `content/ergebnis.aux'.
+
+ (/Users/melinaalt/Documents/Master/WS2122/Vorlagen/FOM_MWP_LaTeX/content/ergebnis.tex
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 107.
+(babel)             in language  on input line 5.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 107.
+(babel)             in language  on input line 5.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 109.
+(babel)             in language  on input line 15.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 109.
+(babel)             in language  on input line 15.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 109.
+(babel)             in language  on input line 18.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 109.
+(babel)             in language  on input line 18.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 21.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 21.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 24.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 24.
+)
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 96.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 96.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 96.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 96.
  [4
+
+
+
+]
+\openout2 = `content/diskussion.aux'.
+
+ (/Users/melinaalt/Documents/Master/WS2122/Vorlagen/FOM_MWP_LaTeX/content/diskussion.tex
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 5.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 5.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 15.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 15.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 18.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 18.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 21.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 21.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 24.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 24.
+)
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 97.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 97.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 97.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 97.
+ [5
+
+
+
+]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 109.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 109.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 111.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 111.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 111.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 111.
+ [6
 
 
 ]
@@ -1497,41 +1597,41 @@ Package babel Info: Redefining ngerman shorthand "~
 
  (/Users/melinaalt/Documents/Master/WS2122/Vorlagen/FOM_MWP_LaTeX/content/eidesstattlich.tex)
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 117.
+(babel)             in language  on input line 119.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 117.
+(babel)             in language  on input line 119.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 117.
+(babel)             in language  on input line 119.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 117.
- [5
+(babel)             in language  on input line 119.
+ [7
 
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 120.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 120.
- (/Users/melinaalt/Documents/Master/WS2122/Vorlagen/FOM_MWP_LaTeX/thesis.aux (/Users/melinaalt/Documents/Master/WS2122/Vorlagen/FOM_MWP_LaTeX/settings/setup.aux) (/Users/melinaalt/Documents/Master/WS2122/Vorlagen/FOM_MWP_LaTeX/content/abstract.aux) (/Users/melinaalt/Documents/Master/WS2122/Vorlagen/FOM_MWP_LaTeX/content/abkverzeichnis.aux) (/Users/melinaalt/Documents/Master/WS2122/Vorlagen/FOM_MWP_LaTeX/content/einleitung.aux) (/Users/melinaalt/Documents/Master/WS2122/Vorlagen/FOM_MWP_LaTeX/content/hauptteil.aux) (/Users/melinaalt/Documents/Master/WS2122/Vorlagen/FOM_MWP_LaTeX/content/eidesstattlich.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 120.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 120.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 122.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 122.
+ (/Users/melinaalt/Documents/Master/WS2122/Vorlagen/FOM_MWP_LaTeX/thesis.aux (/Users/melinaalt/Documents/Master/WS2122/Vorlagen/FOM_MWP_LaTeX/settings/setup.aux) (/Users/melinaalt/Documents/Master/WS2122/Vorlagen/FOM_MWP_LaTeX/content/abstract.aux) (/Users/melinaalt/Documents/Master/WS2122/Vorlagen/FOM_MWP_LaTeX/content/abkverzeichnis.aux) (/Users/melinaalt/Documents/Master/WS2122/Vorlagen/FOM_MWP_LaTeX/content/einleitung.aux) (/Users/melinaalt/Documents/Master/WS2122/Vorlagen/FOM_MWP_LaTeX/content/theorie.aux) (/Users/melinaalt/Documents/Master/WS2122/Vorlagen/FOM_MWP_LaTeX/content/methoden.aux) (/Users/melinaalt/Documents/Master/WS2122/Vorlagen/FOM_MWP_LaTeX/content/ergebnis.aux) (/Users/melinaalt/Documents/Master/WS2122/Vorlagen/FOM_MWP_LaTeX/content/diskussion.aux) (/Users/melinaalt/Documents/Master/WS2122/Vorlagen/FOM_MWP_LaTeX/content/eidesstattlich.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 122.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 122.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 101D59BFC62D0B4D56634D5F160CF33F;629.
+(rerunfilecheck)             Checksum: F9862AD57AE2EB9F15E9D2EFA59E95F3;1695.
 Package logreq Info: Writing requests to 'thesis.run.xml'.
 \openout1 = `thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 28545 strings out of 493089
- 527355 string characters out of 6134842
- 1086543 words of memory out of 5000000
- 31409 multiletter control sequences out of 15000+600000
- 22564 words of font info for 67 fonts, out of 8000000 for 9000
+ 28621 strings out of 493089
+ 529760 string characters out of 6134842
+ 1097089 words of memory out of 5000000
+ 31443 multiletter control sequences out of 15000+600000
+ 22689 words of font info for 69 fonts, out of 8000000 for 9000
  1145 hyphenation exceptions out of 8191
  76i,11n,77p,1023b,1757s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on /Users/melinaalt/Documents/Master/WS2122/Vorlagen/FOM_MWP_LaTeX/thesis.pdf (11 pages, 94834 bytes).
+Output written on /Users/melinaalt/Documents/Master/WS2122/Vorlagen/FOM_MWP_LaTeX/thesis.pdf (13 pages, 154874 bytes).
 PDF statistics:
- 140 PDF objects out of 1000 (max. 8388607)
- 120 compressed objects within 2 object streams
- 24 named destinations out of 1000 (max. 500000)
- 15978 words of extra memory for PDF output out of 17280 (max. 10000000)
+ 228 PDF objects out of 1000 (max. 8388607)
+ 203 compressed objects within 3 object streams
+ 40 named destinations out of 1000 (max. 500000)
+ 16095 words of extra memory for PDF output out of 17280 (max. 10000000)
 

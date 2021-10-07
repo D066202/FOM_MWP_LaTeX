@@ -2,7 +2,7 @@
 %
 % LaTeX Template
 % 
-% Autor: Melina Alt
+% Autor: Melina Alt 
 % GitHub Repository: tbd
 % 
 % This is free and unencumbered software released into the public domain.
@@ -39,8 +39,9 @@
 % ---------------------------------------------------------------------------- %
 % Inhalt
 % ---------------------------------------------------------------------------- %
-
+ 
 \pagenumbering{Roman}
+
 
 % Exludiert in TOC (vgl Schiefer Leitfaden S. 13)
 \addtocontents{toc}{\protect\setcounter{tocdepth}{0}}
@@ -76,9 +77,9 @@
 
 % Umfang der Arbeit (vgl Schiefer Leitfaden S. 13)
 \vfill
-Die Thesis hat einen Umfang von \quickwordcount{content/hauptteil}\\
+Die Thesis hat einen Umfang von \quickwordcount{thesis}\\ 
 Grundlage ist der Leitfaden zum wissenschaftlichen Arbeiten in der Wirtschaftspsychologie von Prof. Dr. Gernot Schiefer; Version 2020-09.
-
+ 
 \newpage
 
 
@@ -88,11 +89,12 @@ Grundlage ist der Leitfaden zum wissenschaftlichen Arbeiten in der Wirtschaftsps
 
 \pagenumbering{arabic}
 
-% Einleitung
-\include{content/einleitung}
-
 % Hauptteil
-\include{content/hauptteil}
+\include{content/einleitung}
+\include{content/theorie}
+\include{content/methoden}
+\include{content/ergebnis}
+\include{content/diskussion}
 
 
 % ---------------------------------------------------------------------------- %

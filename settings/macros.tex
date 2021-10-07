@@ -1,56 +1,52 @@
 % ---------------------------------------------------------------------------- %
 % Makros
 % ---------------------------------------------------------------------------- %
+%TC:ignore
 
 % Zeilenabstand (vgl Schiefer Leitfaden S. 23)
 \newcommand{\zab}{1.5}
 
 % Absatzeinzug
-\newcommand{\abs}{0mm}
+\newcommand{\abs}{0mm} 
 
 % ---------------------------------------------------------------------------- %
-% Inhalt Titelseite
+% Inhalt Titelseite (vgl Schiefer Leitfaden S. 11)
 % ---------------------------------------------------------------------------- %
-
-% Nicht verwendete Angaben müssen in setup.tex auskommentiert werden.
 
 % Titel und Untertitel
-\newcommand{\haupttitel}{Raus aus der H\"ohle}
-\newcommand{\untertitel}{Vom Glanz des Sonnenlichts}
+\newcommand{\titel}{Haupttitel}
 
 % Verfasser/Verfasserin
 \newcommand{\verfassergen}{Verfasser:}
 \newcommand{\verfasser}{Melina Lucia Alt}
 
-% Adresse
-\newcommand{\strasse}{B1 9}
-\newcommand{\ort}{68159 Mannheim}
+% Semester
+\newcommand{\semestergen}{Semester:}
+\newcommand{\semester}{1}
 
-% Tel
-\newcommand{\telgen}{Tel.: }
-\newcommand{\tel}{-}
+% Matrikelnummer
+\newcommand{\matrgen}{Matrikelnummer: }
+\newcommand{\matr}{596869}
 
-% Mail
-\newcommand{\mailgen}{e-Mail: }
-\newcommand{\mail}{melina\_lucia.alt@fom-net.com}
+% Hochschule
+\newcommand{\HS}{FOM Hochschule f\"ur Oekonomie \& Management}
+\newcommand{\HSZentrum}{Hochschulzentrum Mannheim}
 
-% Referent/Referentin
-\newcommand{\referentgen}{Referent:}
-\newcommand{\referent}{tbd}
+% Studiengang
+\newcommand{\art}{Seminararbeit}
+\newcommand{\Studiengang}{im Studiengang Wirtschaftspsychologie}
 
-% Korreferent/Korreferentin
-% \newcommand{\korreferentgen}{Korreferent:}
-% \newcommand{\korreferent}{Xenophon}
+% Dozent
+\newcommand{\dozentgen}{Dozent:}
+\newcommand{\dozent}{tbd}
 
 % Modul
-\newcommand{\modulgen}{Modul:}
+\newcommand{\modulgen}{Lehrveranstaltung:}
 \newcommand{\modul}{tbd}
 
-% \newcommand{\bearbzeitgen}{Bearbeitungszeitraum:}
-% \newcommand{\bearbzeit}{408 bis 403 v. Chr}
-
-% Fusszeile (Ort, Jahr)
-% \newcommand{\titlefooter}{Athen, 403 v. Chr.}
+% Abgabe
+\newcommand{\datumgen}{Datum der Abgabe:}
+\newcommand{\datum}{\today}
 
 
 % ---------------------------------------------------------------------------- %
@@ -62,6 +58,8 @@
 
 % Wörter zählen
 \newcommand{\quickwordcount}[1]{
-  \immediate\write18{texcount #1.tex > #1-words.tex -sum -1}%
+  \immediate\write18{texcount #1.tex > #1-words.tex -inc -sum -0}%
   \input{#1-words} W\"ortern.%
 }
+
+%TC:endignore 
