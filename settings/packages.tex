@@ -26,7 +26,7 @@
   {\normalfont\itshape}{\thesubsubsection}{1em}{}
 
 % Biblatex Settings (APA-Deutsch)
-\usepackage[style=apa, autolang=other]{biblatex}
+\usepackage[style=apa, autolang=other, url=false]{biblatex}
 \DeclareLanguageMapping{ngerman}{ngerman-apa}
 
 % Dient zur Auszeichnung und erstellung von Hyperlinks
@@ -94,8 +94,8 @@
 
 % Fügt im Literaturverzeichnis "Verfügbar unter" und optional "Letzter Zugriff" 
 % zu .bib entries mit url und urldate hinzu.
-\DeclareFieldFormat{formaturl}{Verfügbar unter #1}
-\DeclareFieldFormat{formatdate}{Letzter Zugriff: #1}
+% \DeclareFieldFormat{formaturl}{Verfügbar unter #1}
+% \DeclareFieldFormat{formatdate}{Letzter Zugriff: #1}
 
 %\newbibmacro*{url+urldate}{%
 %	\iffieldundef{urlyear}{%
@@ -105,6 +105,9 @@
 %		\printtext[formatdate]{\printurldate}%
 %	}%
 %}
+
+\AtEveryBibitem{\clearfield{month}}
+\AtEveryCitekey{\clearfield{month}}
 
 % Ergänzt im Literaturverzeichnis den Publisher mit Ort (Ort, Herausgeber)
 \DeclareListFormat{publisher}{\printlist{location}\addcomma\space #1}

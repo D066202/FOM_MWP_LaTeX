@@ -19,46 +19,40 @@
 
 \refsection{0}
   \sortlist{apa}{apa}
-    \entry{brooksbankCognitiveDissonanceRevisited2020}{article}{}
-      \name{author}{2}{}{%
-        {{uniquename=0,hash=65e553e21622ddd32202aa273e916d2f}{Brooksbank}{B\bibinitperiod}{Roger}{R\bibinitperiod}{}{}{}{}}%
-        {{uniquename=0,hash=023e34bf364a79d4946494625e8d1e9a}{Fullerton}{F\bibinitperiod}{Sam}{S\bibinitperiod}{}{}{}{}}%
+    \entry{cogliserReviewCognitiveDissonance2017}{article}{}
+      \name{author}{5}{}{%
+        {{uniquename=0,hash=427492634b3ce4977b4f6a0b109f6d75}{Cogliser}{C\bibinitperiod}{Claudia}{C\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=700f31061826597ec0b2adece07d032d}{Hinojosa}{H\bibinitperiod}{Amanda\bibnamedelima S.}{A\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=980769ddb15acf0b7fb2866fd9af38d3}{Gardner}{G\bibinitperiod}{William\bibnamedelima L.}{W\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=dd16135f1e97bced298e7ee82005e5e8}{Gullifor}{G\bibinitperiod}{Daniel}{D\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=7079a49cfaf3e08dfca4ab66d69572f7}{Walker}{W\bibinitperiod}{H.\bibnamedelimi Jack}{H\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
       }
-      \strng{namehash}{94ef07f066978c21226eeacd24489d72}
-      \strng{fullhash}{94ef07f066978c21226eeacd24489d72}
-      \field{sortinit}{B}
-      \field{sortinithash}{4ecbea03efd0532989d3836d1a048c32}
-      \field{labelyear}{2020}
+      \strng{namehash}{b577443f28c3109a095d12ceabd8ea0a}
+      \strng{fullhash}{594ea8381ca1e6f5ade306977ac85afe}
+      \field{sortinit}{C}
+      \field{sortinithash}{59f25d509f3381b07695554a9f35ecb2}
+      \field{labelyear}{2017}
       \field{labelmonth}{01}
-      \field{labelday}{17}
       \field{datelabelsource}{year}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{abstract}{Purpose – In revisiting Festinger’s theory of cognitive dissonance, this paper seeks to go beyond traditional business-to-consumer (B2C) research parameters and explore the full extent of its potential application within a New Zealand business-to-business (B2B) purchasing context.}
-      \field{day}{17}
-      \field{issn}{1355-5855}
-      \field{journaltitle}{Asia Pacific Journal of Marketing and Logistics}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Since its introduction to the social psychology literature 60 years ago, Festinger’s cognitive dissonance theory (CDT) has been frequently applied to the management literature to explain and predict the motivational nature of dissonance in producing attitude and behavior change in managerial decision making and the broader organizational context. Yet many of the popular constructs that stem from CDT have since lost touch with more recent developments in the field of origin. In this paper, we provide a review of the key constructs and predictions associated with CDT from Festinger’s early work to the latest developments. We then review key management research that has incorporated CDT. Drawing from the latest refinements to CDT, we describe how future management studies could benefit by integrating these refinements into their theoretical frameworks, rather than simply relying on Festinger’s seminal work on the 60th anniversary of its publication (1957). [ABSTRACT FROM AUTHOR]}
+      \field{issn}{01492063}
+      \field{journaltitle}{Journal of Management}
       \field{month}{01}
-      \field{number}{8}
-      \field{shortjournal}{APJML}
-      \field{shorttitle}{Cognitive Dissonance Revisited}
-      \field{title}{Cognitive Dissonance Revisited: A Typology of {{B2B}} Buyers' Post-Decision ‘Cognitive States’ and Its Implications for Sales Professionals}
-      \field{urlday}{30}
-      \field{urlmonth}{09}
-      \field{urlyear}{2021}
-      \field{volume}{32}
-      \field{year}{2020}
-      \field{pages}{1759\bibrangedash 1782}
-      \range{pages}{24}
-      \verb{doi}
-      \verb 10.1108/APJML-01-2019-0068
-      \endverb
+      \field{number}{1}
+      \field{title}{A {Review} of {Cognitive} {Dissonance} {Theory} in {Management} {Research}.}
+      \field{volume}{43}
+      \field{year}{2017}
+      \field{pages}{170\bibrangedash 199}
+      \range{pages}{30}
       \verb{file}
-      \verb /Users/melinaalt/Zotero/storage/TPEMJEV7/Brooksbank und Fullerton - 2020 - Cognitive dissonance revisited A typology of B2B .pdf
+      \verb Hinojosa-Rewiew of Cognitive Dissonance.pdf:/Users/melinaalt/Zotero/storage/SNBH999V/Hinojosa-Rewiew of Cognitive Dissonance.pdf:application/pdf
       \endverb
       \verb{url}
-      \verb https://www.emerald.com/insight/content/doi/10.1108/APJML-01-2019-0068/full/html
+      \verb http://search.ebscohost.com/login.aspx?direct=true&db=buh&AN=120132822&lang=de&site=ehost-live
       \endverb
+      \keyw{DECISION making in business,MANAGEMENT,MANAGEMENT literature,COGNITIVE dissonance theory (Communication),PERSONALITY \& motivation,ATTITUDE change (Psychology),attitude change,cognition,cognitive dissonance,managerial decision making,motivation}
     \endentry
   \endsortlist
 \endrefsection
