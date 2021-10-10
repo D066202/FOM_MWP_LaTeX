@@ -91,11 +91,6 @@
 \reversemarginpar % Notizen links anzeigen
 \setlength{\marginparwidth}{2.2cm}
 \usepackage[backgroundcolor=white,linecolor=black,textsize=small]{todonotes}
-\makeatletter
-\renewcommand{\todo}[2][]{%
-    \@todo[tickmarkheight=0.2cm,caption={#2}, #1]{\begin{spacing}{0.6}#2\end{spacing}}%
-} 
-\makeatother 
 
 % Fügt im Literaturverzeichnis "Verfügbar unter" und optional "Letzter Zugriff" 
 % zu .bib entries mit url und urldate hinzu.

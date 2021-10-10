@@ -50,6 +50,9 @@
 % Nicht verwendete können auskommentiert werden.
 % Reihenfolge vgl Schiefer Leitfaden S. 27
 
+%Linksbündig (vgl Schiefer Leitfaden S. 26)
+\begin{flushleft}
+
 % Abstract
 \setcounter{page}{2}
 \include{content/abstract}
@@ -87,7 +90,11 @@ Grundlage ist der Leitfaden zum wissenschaftlichen Arbeiten in der Wirtschaftsps
 % Einleitung und Hauptteil
 % ---------------------------------------------------------------------------- %
 
+% Seitennummerierung (vgl Schiefer Leitfaden S. 27)
 \pagenumbering{arabic}
+
+% Erstzeileneinzug (vgl Schiefer Leitfaden S. 26)
+\setlength{\parindent}{1.5cm}
 
 % Hauptteil
 \include{content/einleitung}
@@ -96,6 +103,8 @@ Grundlage ist der Leitfaden zum wissenschaftlichen Arbeiten in der Wirtschaftsps
 \include{content/ergebnis}
 \include{content/diskussion}
 
+%Ende des linksbündigen Flattersatzes (beachte TODO)
+\end{flushleft}
 
 % ---------------------------------------------------------------------------- %
 % Bibliografie
@@ -106,7 +115,7 @@ Grundlage ist der Leitfaden zum wissenschaftlichen Arbeiten in der Wirtschaftsps
 
 % Bibliografie
 \phantomsection
-\addcontentsline{toc}{section}{Literaturverzeichnis} 
+\addcontentsline{toc}{section}{Literaturverzeichnis}
 \printbibliography[title=Literaturverzeichnis]
 \newpage
 
@@ -117,6 +126,5 @@ Grundlage ist der Leitfaden zum wissenschaftlichen Arbeiten in der Wirtschaftsps
 
 % Eidesstattliche Erklärung
 \include{content/eidesstattlich}
-
 
 \end{document}

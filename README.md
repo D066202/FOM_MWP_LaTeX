@@ -1,8 +1,6 @@
 # LaTeX Vorlage MWP
 
-Coming soon!
-
-LaTeX-Vorlage für Exposé, Studienarbeit, Thesis, ...‚
+Grundlage ist der Leitfaden zum wissenschaftlichen Arbeiten in der Wirtschaftspsychologie von Prof. Dr. Gernot Schiefer; Version 2020-09.
 
 # Troubleshooting
-rm -rf $(biber --cache)
+rm -rf $(biber --cache) 
